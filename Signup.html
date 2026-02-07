@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign up</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-100 text-slate-900">
+  <!-- Top Image -->
+  <img src="DongHua.png" alt="DongHua Logo" class=" w-[100%] h-[99%] object-cover" />
+  <hr class="border-slate-300" />
+
+  <div class="mx-auto max-w-md px-4">
+    <div class="mt-10 rounded-lg border border-slate-300 bg-slate-50 p-6 shadow-sm">
+      <form id="signupForm" class="space-y-4">
+        <h1 class="text-center text-2xl font-semibold">Create Account</h1>
+
+        <!-- Email -->
+        <div class="space-y-1">
+          <label class="text-sm font-medium">Email</label>
+          <input
+            type="email"
+            placeholder="Email"
+            required
+            class="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-slate-900"
+          />
+        </div>
+
+        <!-- Password -->
+        <div class="space-y-1">
+          <label class="text-sm font-medium">Password</label>
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            class="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-slate-900"
+          />
+        </div>
+
+        <!-- Username -->
+        <div class="space-y-1">
+          <label class="text-sm font-medium">Username</label>
+          <input
+            type="text"
+            placeholder="Username"
+            required
+            class="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-slate-900"
+          />
+        </div>
+
+        <!-- Country -->
+        <div class="space-y-1">
+          <label class="text-sm font-medium">Your Country</label>
+          <select
+            required
+            class="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-slate-900"
+          >
+            <option value="Cambodia">Cambodia</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+          </select>
+        </div>
+
+        <!-- Create account -->
+        <button
+          type="submit"
+          class="w-full rounded-md border border-slate-400 bg-white px-4 py-2 text-sm font-medium hover:bg-slate-200"
+        >
+          Create Account
+        </button>
+
+        <hr class="border-slate-300" />
+
+        <h2 class="text-center text-lg font-semibold">Sign Up With</h2>
+
+        <!-- Google -->
+        <button
+          type="button"
+          class="flex w-full items-center justify-center gap-2 rounded-md border border-slate-400 bg-white px-4 py-2 text-sm font-medium hover:bg-slate-200"
+        >
+          <img src="google.png" alt="Google" class="h-4 w-4" />
+          Continue with Google
+        </button>
+
+        <!-- Apple -->
+        <button
+          type="button"
+          class="flex w-full items-center justify-center gap-2 rounded-md border border-slate-400 bg-white px-4 py-2 text-sm font-medium hover:bg-slate-200"
+        >
+          <img src="Apple.jpg" alt="Apple" class="h-4 w-4" />
+          Continue with Apple
+        </button>
+
+        <hr class="border-slate-300" />
+
+        <p class="text-center text-sm">
+          Already have an account?
+        </p>
+
+        <a
+          href="Signin.html"
+          class="block w-full rounded-md border border-slate-400 bg-white px-4 py-2 text-center text-sm font-medium hover:bg-slate-200"
+        >
+          Sign In
+        </a>
+      </form>
+    </div>
+  </div>
+<main class="py-8">
+  <section class="mx-auto max-w-md px-4">
+    <div class="text-center w-50% rounded-md border border-slate-400 bg-white px-4 py-2 text-sm font-medium hover:bg-slate-200">
+      <a href="index.html">Home DongHua</a>
+    </div>
+  </section>
+</main>
+</body>
+</html>
